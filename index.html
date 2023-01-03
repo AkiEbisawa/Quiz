@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/7ba4e9bcbc.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+<body>
+  <!-- nav-bar -->
+  <nav class="nav-bar">
+    <div class="nav-container">
+      <span class="menu-btn" id="menu-btn"><i class="fa-solid fa-bars"></i> MENU</span>
+      <span class="logo">CICCC</span>
+      <span class="account-btn" id="login-btn"><i class="fa-solid fa-user"></i> LOGIN</span>
+    </div>
+  </nav>
+  <!-- menu-bar end -->
+  
+  <!-- Menu button insede -->
+  <div class="menu-inside show-menu" id="menu-list">
+    <div class="nav-container">
+      <ul>
+        <li>Game</li>
+        <li>Quiz</li>
+        <li>Q&A</li>
+      </ul>
+    </div>
+  </div>
+  <!-- menu-inside end -->
+  
+  <!-- login -->
+  <div class="darken" id="darken" tabindex="-1"></div>
+  <div class="login" id="form">
+    <form id="login" class="form">
+      <h1 class="h1"><i class="fa-solid fa-star" id="star"></i> LOGIN <i class="fa-solid fa-star" id="star"></i></h1>
+      <div class="input one">
+        <div class="user-i">
+          <i class="fa-solid fa-user" id="i"></i>
+        </div>
+        <div class="input-form">
+          <h5>Username</h5>
+          <input type="text" class="input-name" id="uname" placeholder="Type your username or email" required>
+        </div>
+      </div>
+
+      <div class="input two">
+        <div class="user-i">
+          <i class="fa-solid fa-lock" id="i"></i>
+        </div>
+        <div class="input-form">
+          <h5>Password</h5>
+          <input type="text" class="pass" placeholder="Type your password" id="psw" required>
+        </div>
+      </div>
+      <div class="log-btn" id="l">
+        <input type="submit" class="sub-btn" id="sub-btn" value="LOGIN">
+      </div>
+      <a href="#" class="a">Forgot Password?</a>
+      <div class="sign-up">Need an account? <a href="/index.html" class="signup-a" id="signup-btn">SIGN UP</a></div>
+      <a href="index.html" class="sign-a" id="close">Continue without logging in</a>
+    </form> 
+  </div>
+  <!-- login end -->
+  <main>
+    <div class="main-coontainer">
+      <h1 class="main-h1">Quick Quiz</h1>
+      <div class="box1">
+          <h4 class="level-H">EASY</h4>
+          <p class="main-title">Entertainment : General Knowledge</p>
+          <button class="start-btn" id="start">
+            <a href="/quiz.html" class="start-a">START</a></button> 
+        </div>
+        <div class="box1">
+          <h4 class="level-H">MEDIUM</h4>
+          <p class="main-title">Entertainment : General Knowledge</p>
+          <button class="start-btn" id="start">START</button> 
+        </div>
+        <div class="box1">
+          <h4 class="level-H">HARD</h4>
+          <p class="main-title">Entertainment : General Knowledge</p>
+          <button class="start-btn" id="start">START</button> 
+        </div>
+    </div>
+  </main>
+  
+  <footer>
+    <div class="f-container">
+      <div class="f-menu">
+        <a href="#">About us</a>
+        <a href="#">How to play</a>
+        <a href="#">Q&A</a>
+      </div>
+      <h5>@CICCC.co since 2022</h5>
+    </div>
+  </footer>
+  <script src="/main.js"></script>
+  <script src="/account.js"></script>
+</body>
+</html>
